@@ -9,7 +9,7 @@ public class FibonacciTest {
             return 0;
         if (n <= 2)
             return 1;
-        return 2;
+        return 1 + 1;
     }
 
     @Test
