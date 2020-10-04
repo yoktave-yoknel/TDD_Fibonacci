@@ -5,7 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class FibonacciTest {
     int fib(int n) {
-        return 0;
+        if (n == 0)
+            return 0;
+        return 1;
     }
 
     @Test
