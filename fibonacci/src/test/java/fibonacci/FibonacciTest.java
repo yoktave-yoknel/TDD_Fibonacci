@@ -7,8 +7,10 @@ public class FibonacciTest {
     int fib(int n) {
         return 0;
     }
+
     @Test
     public void testFibonacci() {
         assertEquals(0, fib(0));
+        assertEquals(1, fib(1));
     }
 }
